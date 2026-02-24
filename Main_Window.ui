@@ -1,0 +1,1922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>995</width>
+    <height>462</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1</width>
+    <height>1</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>A.B.E.L</string>
+  </property>
+  <property name="inputMethodHints">
+   <set>Qt::ImhNone</set>
+  </property>
+  <widget class="QGroupBox" name="Photodiode_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>651</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+     <stylestrategy>PreferDefault</stylestrategy>
+     <hintingpreference>PreferVerticalHinting</hintingpreference>
+    </font>
+   </property>
+   <property name="accessibleName">
+    <string>Photodiode n° 1</string>
+   </property>
+   <property name="accessibleDescription">
+    <string>Photodiode n° 1</string>
+   </property>
+   <property name="title">
+    <string>Photodiode n° 1</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <widget class="QLineEdit" name="SavePh1">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>false</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="accessibleName">
+     <string>SavePh1</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>SavePh1</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Full save path</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="SamplePh1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>false</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic; color:#a0a0a0;&quot;&gt;Nombre Muestra&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="accessibleName">
+     <string>SamplePh1</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>SamplePh1</string>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Sample Name</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="CycleTimePh1">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>10</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferVerticalHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>CyceTimePh1</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>CyceTimePh1</string>
+    </property>
+    <property name="minimum">
+     <number>10</number>
+    </property>
+    <property name="maximum">
+     <number>40000</number>
+    </property>
+    <property name="singleStep">
+     <number>10</number>
+    </property>
+    <property name="value">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="IntervalTimePh1">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>40</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntervalTimePh1</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntervalTimePh1</string>
+    </property>
+    <property name="minimum">
+     <number>500</number>
+    </property>
+    <property name="maximum">
+     <number>600000</number>
+    </property>
+    <property name="singleStep">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="IntegrationTimePh1">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>70</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferVerticalHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntegrationTimePh1</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntegrationTimePh1</string>
+    </property>
+    <property name="minimum">
+     <number>10</number>
+    </property>
+    <property name="maximum">
+     <number>3000</number>
+    </property>
+    <property name="singleStep">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CycleTime">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>10</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>CycleTime</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>CycleTime</string>
+    </property>
+    <property name="text">
+     <string>Cycle Time (min):</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IntervalTime">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>40</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntervalTime</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntervalTime</string>
+    </property>
+    <property name="text">
+     <string>Interval Time (ms):</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IntegrationTime">
+    <property name="geometry">
+     <rect>
+      <x>446</x>
+      <y>70</y>
+      <width>118</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="text">
+     <string>Integration Time (ms):</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GraphsPh1">
+    <property name="geometry">
+     <rect>
+      <x>304</x>
+      <y>70</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>GraphsPh1</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>GraphsPh1</string>
+    </property>
+    <property name="text">
+     <string>View Graps</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StartPh1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>true</kerning>
+      <hintingpreference>PreferDefaultHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>StartPh1</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>StartPh1</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StopPh1">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>70</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>StopPh1</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>StopPh1</string>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="ActivedPh1">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>50</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>true</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>ActivedPh1</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>ActivedPh1</string>
+    </property>
+    <property name="text">
+     <string>Actived</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="ArduinoStatus">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>411</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <bold>true</bold>
+     <underline>true</underline>
+     <hintingpreference>PreferVerticalHinting</hintingpreference>
+    </font>
+   </property>
+   <property name="accessibleName">
+    <string>ArduinoStatus</string>
+   </property>
+   <property name="accessibleDescription">
+    <string>ArduinoStatus</string>
+   </property>
+   <property name="title">
+    <string>Arduino Connection</string>
+   </property>
+   <widget class="QPushButton" name="ConnectArduino">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+      <hintingpreference>PreferDefaultHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string>ConnectArduino</string>
+    </property>
+    <property name="accessibleName">
+     <string>ConnectArduino</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>ConnectArduino</string>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DisconnectArduino">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>20</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>3</width>
+      <height>2</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+      <hintingpreference>PreferDefaultHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string>DisconnectArduino</string>
+    </property>
+    <property name="accessibleName">
+     <string>DisconnectArduino</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>DisconnectArduino</string>
+    </property>
+    <property name="text">
+     <string>Disconnect</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="ConnectionActive">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>20</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+      <hintingpreference>PreferDefaultHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>ConnectionActive</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>ConnectionActive</string>
+    </property>
+    <property name="text">
+     <string>Active</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="ConnectionInactive">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+      <hintingpreference>PreferDefaultHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>ConnectionInactive</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>ConnectionInactive</string>
+    </property>
+    <property name="text">
+     <string>Inactive</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="ConnectionError">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+      <hintingpreference>PreferDefaultHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>ConnectionError</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>ConnectionError</string>
+    </property>
+    <property name="text">
+     <string>Error</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="Photodiode_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>651</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+     <stylestrategy>PreferDefault</stylestrategy>
+     <hintingpreference>PreferVerticalHinting</hintingpreference>
+    </font>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="accessibleName">
+    <string>Photodiode2</string>
+   </property>
+   <property name="accessibleDescription">
+    <string>Photodiode2</string>
+   </property>
+   <property name="title">
+    <string>Photodiode n° 2</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <widget class="QLineEdit" name="SavePh2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>false</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>SavePh2</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>SavePh2</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Full save path</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="SamplePh2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>false</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>SamplePh2</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>SamplePh2</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Sample Name</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GraphsPh2">
+    <property name="geometry">
+     <rect>
+      <x>304</x>
+      <y>70</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>true</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>GraphsPh2</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>GraphsPh2</string>
+    </property>
+    <property name="text">
+     <string>View Graphs</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CycleTime_2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>10</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>CycleTime</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>CycleTime</string>
+    </property>
+    <property name="text">
+     <string>Cycle Time (min):</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IntervalTime_2">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>40</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntervalTime</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntervalTime</string>
+    </property>
+    <property name="text">
+     <string>Interval Time (ms):</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IntegrationTime_2">
+    <property name="geometry">
+     <rect>
+      <x>446</x>
+      <y>70</y>
+      <width>118</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntegrationTime</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntegrationTime</string>
+    </property>
+    <property name="text">
+     <string>Integration Time (ms):</string>
+    </property>
+    <property name="openExternalLinks">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="CycleTimePh2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>10</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferVerticalHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>CycleTimePh2</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>CycleTimePh2</string>
+    </property>
+    <property name="minimum">
+     <number>10</number>
+    </property>
+    <property name="maximum">
+     <number>40000</number>
+    </property>
+    <property name="singleStep">
+     <number>10</number>
+    </property>
+    <property name="value">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="IntervalTimePh2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>40</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferVerticalHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntervalTimePh2</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntervalTimePh2</string>
+    </property>
+    <property name="minimum">
+     <number>500</number>
+    </property>
+    <property name="maximum">
+     <number>600000</number>
+    </property>
+    <property name="singleStep">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="IntegrationTimePh2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>70</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferVerticalHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="minimum">
+     <number>20</number>
+    </property>
+    <property name="maximum">
+     <number>3000</number>
+    </property>
+    <property name="singleStep">
+     <number>50</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="ActivedPh2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>50</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>ActivedPh2</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>ActivedPh2</string>
+    </property>
+    <property name="text">
+     <string>Actived</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StopPh2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>70</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>false</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>StopPh2</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>StopPh2</string>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StartPh2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>StartPh2</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>StartPh2</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="Photodiode_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>651</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+     <stylestrategy>PreferDefault</stylestrategy>
+     <hintingpreference>PreferVerticalHinting</hintingpreference>
+    </font>
+   </property>
+   <property name="accessibleName">
+    <string>Photodiode3</string>
+   </property>
+   <property name="accessibleDescription">
+    <string>Photodiode3</string>
+   </property>
+   <property name="title">
+    <string>Photodiode n° 3</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <widget class="QLineEdit" name="SavePh3">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>false</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>SavePh3</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>SavePh3</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Full save path</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="SamplePh3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>false</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>SamplePh3</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>SamplePh3</string>
+    </property>
+    <property name="placeholderText">
+     <string>Sample Name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CycleTime_3">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>10</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>true</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>CycleTime</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>CycleTime</string>
+    </property>
+    <property name="text">
+     <string>Cycle Time (min):</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IntervalTime_3">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>40</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>true</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntervalTime</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntervalTime</string>
+    </property>
+    <property name="text">
+     <string>Interval Time (ms):</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IntegrationTime_3">
+    <property name="geometry">
+     <rect>
+      <x>446</x>
+      <y>70</y>
+      <width>118</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntegationTime</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntegrationTime</string>
+    </property>
+    <property name="text">
+     <string>Integration Time (ms):</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="CycleTimePh3">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>10</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferVerticalHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>CycleTimePh3</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>CycleTimePh3</string>
+    </property>
+    <property name="minimum">
+     <number>10</number>
+    </property>
+    <property name="maximum">
+     <number>40000</number>
+    </property>
+    <property name="singleStep">
+     <number>10</number>
+    </property>
+    <property name="value">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="IntervalTimePh3">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>40</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferVerticalHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntervalTimePh3</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntervalTimePh3</string>
+    </property>
+    <property name="minimum">
+     <number>500</number>
+    </property>
+    <property name="maximum">
+     <number>600000</number>
+    </property>
+    <property name="singleStep">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="IntegrationTimePh3">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>70</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferVerticalHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntegrationTimePh3</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntegrationTimePh3</string>
+    </property>
+    <property name="minimum">
+     <number>20</number>
+    </property>
+    <property name="maximum">
+     <number>3000</number>
+    </property>
+    <property name="singleStep">
+     <number>50</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GraphsPh3">
+    <property name="geometry">
+     <rect>
+      <x>304</x>
+      <y>70</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>false</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>GraphsPh3</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>GraphsPh3</string>
+    </property>
+    <property name="text">
+     <string>View Graphs</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StartPh3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>StartPh3</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>StartPh3</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="ActivedPh3">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>50</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>false</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>ActivedPh3</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>ActivedPh3</string>
+    </property>
+    <property name="text">
+     <string>Actived</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StopPh3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>70</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>false</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>StopPh3</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>StopPh3</string>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="Photodiode_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>350</y>
+     <width>651</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+     <stylestrategy>PreferDefault</stylestrategy>
+     <hintingpreference>PreferVerticalHinting</hintingpreference>
+    </font>
+   </property>
+   <property name="accessibleName">
+    <string>Photodiode4</string>
+   </property>
+   <property name="accessibleDescription">
+    <string>Photodiode4</string>
+   </property>
+   <property name="title">
+    <string>Photodiode n° 4</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <widget class="QLineEdit" name="SavePh4">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>SavePh4</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>SavePh4</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Full save path</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="SamplePh4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>false</kerning>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>SamplePh4</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>SamplePh4</string>
+    </property>
+    <property name="placeholderText">
+     <string>Sample Name</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GraphsPh4">
+    <property name="geometry">
+     <rect>
+      <x>304</x>
+      <y>70</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>GraphsPh4</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>GraphsPh4</string>
+    </property>
+    <property name="text">
+     <string>View Graphs</string>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>305</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CycleTime_4">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>10</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>CycleTime</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>CycleTime</string>
+    </property>
+    <property name="text">
+     <string>Cycle Time (min):</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IntervalTime_4">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>40</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntervalTime</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntervalTime</string>
+    </property>
+    <property name="text">
+     <string>Interval Time (ms):</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IntegrationTime_4">
+    <property name="geometry">
+     <rect>
+      <x>446</x>
+      <y>70</y>
+      <width>118</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntegrationTime</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntegrationTime</string>
+    </property>
+    <property name="text">
+     <string>Integration Time (ms):</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="CycleTimePh4">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>10</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferVerticalHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>CycleTimePh4</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>CycleTimePh4</string>
+    </property>
+    <property name="minimum">
+     <number>10</number>
+    </property>
+    <property name="maximum">
+     <number>40000</number>
+    </property>
+    <property name="singleStep">
+     <number>10</number>
+    </property>
+    <property name="value">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="IntervalTimePh4">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>40</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferVerticalHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntervalTimePh4</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntervalTimePh4</string>
+    </property>
+    <property name="minimum">
+     <number>500</number>
+    </property>
+    <property name="maximum">
+     <number>600000</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="IntegrationTimePh4">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>70</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferVerticalHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>IntegrationTimePh4</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>IntegrationTimePh4</string>
+    </property>
+    <property name="minimum">
+     <number>20</number>
+    </property>
+    <property name="maximum">
+     <number>3000</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StartPh4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>StartPh4</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>StartPh4</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="ActivedPh4">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>50</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>ActivedPh4</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>ActivedPh4</string>
+    </property>
+    <property name="text">
+     <string>Actived</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StopPh4">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>70</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <hintingpreference>PreferFullHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="accessibleName">
+     <string>StopPh4</string>
+    </property>
+    <property name="accessibleDescription">
+     <string>StopPh4</string>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTextBrowser" name="Monitor">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>18</y>
+     <width>311</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>6</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <hintingpreference>PreferFullHinting</hintingpreference>
+    </font>
+   </property>
+   <property name="accessibleName">
+    <string>Monitor</string>
+   </property>
+   <property name="accessibleDescription">
+    <string>Monitor</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWrapMode">
+    <enum>QTextEdit::WidgetWidth</enum>
+   </property>
+  </widget>
+  <zorder>Photodiode_4</zorder>
+  <zorder>Photodiode_3</zorder>
+  <zorder>Photodiode_2</zorder>
+  <zorder>Photodiode_1</zorder>
+  <zorder>ArduinoStatus</zorder>
+  <zorder>Monitor</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
