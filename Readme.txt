@@ -22,7 +22,7 @@ You should see the installed version.
 2) Install Required libraries
 
 Go to the folder where your project files are located
-(the folder containing ABEL.py, setup.py, ABEL.ico, and Main_Window.py).
+(the folder containing ORLS.py, setup.py, ORLS.ico, and Main_Window.py).
 Click on the address bar of the folder and type:
 
 cmd
@@ -51,6 +51,7 @@ dist
 Open the dist folder.
 Inside you will find:
 
-ABEL.exe
+ORLS.exe
+
 
 That is your final executable.
