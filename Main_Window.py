@@ -689,7 +689,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "A.B.E.L"))
+        Dialog.setWindowTitle(_translate("Dialog", "ORLS"))
         self.Photodiode_1.setAccessibleName(_translate("Dialog", "Photodiode n° 1"))
         self.Photodiode_1.setAccessibleDescription(_translate("Dialog", "Photodiode n° 1"))
         self.Photodiode_1.setTitle(_translate("Dialog", "Photodiode n° 1"))
@@ -854,3 +854,4 @@ class Ui_Dialog(object):
         self.StopPh4.setText(_translate("Dialog", "Stop"))
         self.Monitor.setAccessibleName(_translate("Dialog", "Monitor"))
         self.Monitor.setAccessibleDescription(_translate("Dialog", "Monitor"))
+
