@@ -1,12 +1,13 @@
 from PyInstaller.__main__ import run
 
 if __name__ == '__main__':
-    opts = ["ABEL.py",
+    opts = ["ORLS.py",
             "--onefile",
             "--windowed",
-            "--name=ABEL",
-            "--icon=ABEL.ico",
+            "--name=ORLS",
+            "--icon=ORLS.ico",
             "--add-data",
-            "ABEL.ico;."
+            "ORLS.ico;."
             ] 
+
     run(opts)
